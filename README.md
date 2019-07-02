@@ -7,6 +7,9 @@
 
 
 ### user journey
+1. as a user im able to enter a text 
+2. as a user im able to press a 'translate' button to get the translation of the enterd text 
+3. as a user im able to give a rating for the translation i've got
 
 
 ### File structure
@@ -23,7 +26,7 @@
 
 
 ### Team
-- Rand
-- Nadeen
-- Dua`
-- Munir
+* Rand
+* Nadeen
+* Dua`
+* Munir
