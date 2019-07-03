@@ -1,35 +1,43 @@
 
-# dictionaryApplication
-### website 
+# Translation Application :smiley:
+
+### Website Link :bulb:
+[Translate](https://fack2.github.io/dictionaryApplication/)
+
+### Descreption
+It is a translation application providing the translation service between 7 different languages by detecting the input text language and translate it to the language selected by the user.
+The user also can rate the translation service.
 
 ### Wireframe
-![20190702_122054](https://user-images.githubusercontent.com/31932786/60507749-81b91880-9cd1-11e9-8e7a-21913f7d8e98.jpg)
+
+<img src="https://user-images.githubusercontent.com/31932786/60591326-eabe9000-9da6-11e9-87b8-72a9d6f13640.jpg" width="400" height="300" >
 
 
-### user journey
-1. as a user im able to enter a text 
-2. as a user im able to press a 'translate' button to get the translation of the enterd text 
-3. as a user im able to give a rating for the translation i've got
+
+
+### User Journey
+1. as a user I'm able to enter a text. 
+2. as a user I'm able to press a 'translate' button to get the translation of the enterd text. 
+3. as a user I'm able to give a rating for the translation i've got.
 
 
 ### File structure
 - Public
-  - index.html
   - style.css
   - images
     - background.png
-- js
+- frontend
   - dom.js
-  - index.js
 - test
   - test.js
+- .gitignore
+- index.html
+- package.json
+- README.md
 
 
-### Team
-* Rand
-* Nadeen
-* Dua`
-* Munir
-
-## Link
-https://fack2.github.io/dictionaryApplication/
+### Team :+1:
+* [Rand](https://github.com/RandInaim)
+* [Nadeen](https://github.com/Nadeen123)
+* [Duaa](https://github.com/DuaaH)
+* [Munir](https://github.com/Muniralsharif)
