@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Dictionary</title>
-    <!-- <link rel="stylesheet" type="text/css" href="./public/style.css" /> -->
+    <link rel="stylesheet" type="text/css" href="public/style.css" />
   </head>
   <body>
     <header class="title">Dictionary</header>
@@ -11,15 +11,23 @@
       <label for="input"> Input Text</label>
       <input name="input-text" id="input" type="text" />
       <label for="input-language"> Choose Language </label>
-      <input name="input-Language" id="inputLang" type="text" />
+      <select class="inputLang">
+        <option value="Arabic">ar</option>
+        <option value="English">en</option>
+        <option value="German">de</option>
+        <option value="russian">ru</option>
+        <option value="French">fr</option>
+      </select>
+
+      <!-- <input name="input-Language" id="inputLang" type="text" /> -->
 
       <button type="button" name="button" id="translate">Translate</button>
 
       <label for="translation"> Translation</label>
       <input name="translation-text" id="translation" type="text" />
 
-      <label for="language"> Language</label>
-      <input name="detect-language" id="detectedLang" type="text" />
+      <label for="language"> Text Language</label>
+      <input name="detect-language" id="dectedLang" type="text" />
     </div>
     <script src="js/Dom.js"></script>
   </body>
