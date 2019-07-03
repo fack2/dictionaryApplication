@@ -35,11 +35,14 @@ The user also can rate the translation service.
 - package.json
 - README.md
 
-
 ### Team :+1:
 * [Rand](https://github.com/RandInaim)
 * [Nadeen](https://github.com/Nadeen123)
 * [Duaa](https://github.com/DuaaH)
 * [Munir](https://github.com/Muniralsharif)
 
-
+### Team :+1:
+* [Rand](https://github.com/RandInaim)
+* [Nadeen](https://github.com/Nadeen123)
+* [Duaa](https://github.com/DuaaH)
+* [Munir](https://github.com/Muniralsharif)
