@@ -10,7 +10,7 @@ The user also can rate the translation service.
 
 ### Wireframe
 
-<img src="https://user-images.githubusercontent.com/31932786/60590550-ec875400-9da4-11e9-85a4-9a207baf0593.jpg" width="400" height="300">
+<img src="https://user-images.githubusercontent.com/31932786/60591326-eabe9000-9da6-11e9-87b8-72a9d6f13640.jpg" width="400" height="300" >
 
 
 
