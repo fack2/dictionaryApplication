@@ -1,0 +1,24 @@
+{
+	"name": "dictionaryApplication",
+	"version": "1.0.0",
+	"description": "### Wireframe ![20190702_122054](https://user-images.githubusercontent.com/31932786/60507749-81b91880-9cd1-11e9-8e7a-21913f7d8e98.jpg)",
+	"main": "index.js",
+	"devDependencies": {
+		"tap-spec": "^5.0.0",
+		"tape": "^4.11.0"
+	},
+	"scripts": {
+		"test": "tape Test/test.js | tap-spec"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fack2/dictionaryApplication.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fack2/dictionaryApplication/issues"
+	},
+	"homepage": "https://github.com/fack2/dictionaryApplication#readme"
+}
