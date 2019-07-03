@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <header class="title">Dictionary</header>
+      <h1 class="title">Dictionary</h1>
     <div class="dictionary">
-      <label for="input"> Input Text</label>
-      <input name="input-text" id="input" type="text" />
-      <label for="input-language"> Choose Language </label>
+       
+      <label for="input" class="a"> Input Text</label>
+      <input class="a1" name="input-text" id="input" type="text" />
+      <label for="input-language" class="b"> Choose Language </label>
 
-      <select id="inputLang" class="inputLanguage">
+      <select  class="inputLanguage b1">
         <option value="ar">Arabic</option>
         <option value="en">English</option>
         <option value="de">German</option>
@@ -27,30 +28,33 @@
 
       <!-- <input name="input-Language" id="inputLang" type="text" /> -->
 
-      <button type="button" name="button" id="translate">Translate</button>
+      <button type="button" name="button" id="translate" class="c">Translate</button>
 
-      <label for="translation"> Translation</label>
-      <input name="translation-text" id="translation" type="text" />
+      <label for="translation" class="d" > Translation</label>
+      <input name="translation-text" id="translation" type="text" class="d1" />
 
-      <label for="language"> Text Language</label>
-      <input name="detect-language" id="detectedLang" type="text" />
-    </div>
+      <label for="language" class="e"> Text Language</label>
+      <input name="detect-language" id="detectedLang" type="text" class="e1 "/>
+      
+      <p class="ratingText f ">Please leave your rating</p>
+      
+      <div class="rate f1">
+       
+        <input type="radio" id="star5" class="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" class="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" class="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" class="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" class="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>
 
-    <div class="rate">
-      <p class="ratingText">Please leave your rating</p>
-      <input type="radio" id="star5" class="rate" value="5" />
-      <label for="star5" title="text">5 stars</label>
-      <input type="radio" id="star4" class="rate" value="4" />
-      <label for="star4" title="text">4 stars</label>
-      <input type="radio" id="star3" class="rate" value="3" />
-      <label for="star3" title="text">3 stars</label>
-      <input type="radio" id="star2" class="rate" value="2" />
-      <label for="star2" title="text">2 stars</label>
-      <input type="radio" id="star1" class="rate" value="1" />
-      <label for="star1" title="text">1 star</label>
-    </div>
-
-   
+ 
+  </div>
+ 
     <script src="/path/to/index.js"></script>
     <script src="js/Dom.js"></script>
   </body>
