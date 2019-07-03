@@ -1,11 +1,11 @@
 
-# DictionaryApplication :smiley:
+# Translation Application :smiley:
 
-### Website Link
-[Dictionary](https://fack2.github.io/dictionaryApplication/)
+### Website Link :bulb:
+[Translate](https://fack2.github.io/dictionaryApplication/)
 
 ### Descreption
-It is a dictionary application providing the translating service between 7 different languages by detecting the input text language and translate it to the language selected by the user.
+It is a translation application providing the translation service between 7 different languages by detecting the input text language and translate it to the language selected by the user.
 The user also can rate the translation service.
 
 ### Wireframe
@@ -33,10 +33,10 @@ The user also can rate the translation service.
 - .gitignore
 - index.html
 - package.json
--README.md
+- README.md
 
 
-### Team :smiley:
+### Team :+1:
 * [Rand](https://github.com/RandInaim)
 * [Nadeen](https://github.com/Nadeen123)
 * [Duaa](https://github.com/DuaaH)
