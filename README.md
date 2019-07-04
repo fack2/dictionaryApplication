@@ -24,14 +24,12 @@ The user also can rate the translation service.
 ### File structure
 - Public
   - style.css
-  - images
-    - background.png
-- frontend
   - dom.js
+  - logic.js
+  - index.html  
 - test
   - test.js
 - .gitignore
-- index.html
 - package.json
 - README.md
 
