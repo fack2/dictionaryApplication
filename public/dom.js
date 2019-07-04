@@ -15,12 +15,14 @@ function languageDetected(input) {
 		case 'ru':
 			return 'Russian';
 			break;
-		case 'ko':
-			return 'Korean';
-			break;
+		
 				
 		case 'tr':
 			return 'Turkish';
+			break;
+			
+		case 'ko':
+			return 'Korean';
 			break;
 	}
 }
