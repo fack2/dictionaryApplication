@@ -2,7 +2,7 @@
 # Translation Application :smiley:
 
 ### Website Link :bulb:
-[Translate](https://fack2.github.io/dictionaryApplication/)
+[Translate](https://fack2.github.io/translationApplication/)
 
 ### Descreption
 It is a translation application providing the translation service between 7 different languages by detecting the input text language and translate it to the language selected by the user.
