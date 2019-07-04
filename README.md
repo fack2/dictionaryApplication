@@ -10,7 +10,8 @@ The user also can rate the translation service.
 
 ### Wireframe
 
-<img src="https://user-images.githubusercontent.com/31932786/60591326-eabe9000-9da6-11e9-87b8-72a9d6f13640.jpg" width="400" height="300" >
+<img src="https://user-images.githubusercontent.com/31932786/60648440-9ff55480-9e48-11e9-8c79-b84664e9db8b.png" width="400" height="300" >
+
 
 
 
@@ -26,9 +27,9 @@ The user also can rate the translation service.
   - style.css
   - dom.js
   - logic.js
-  - index.html  
 - test
   - test.js
+- index.html  
 - .gitignore
 - package.json
 - README.md
