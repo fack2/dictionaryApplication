@@ -19,5 +19,8 @@ function languageDetected(input) {
 
 		case 'ko':
 			return 'Korean';
+			
+		case 'tr':
+			return 'Turkish';
 	}
 }
