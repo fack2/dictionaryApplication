@@ -2,8 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
+    <meta description="A translation aaplication includes 7 languages"></meta>
     <title>Dictionary</title>
-    <link rel="stylesheet" type="text/css" href="public/style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
@@ -14,7 +15,7 @@
        
       <label for="input" class="a"> Input Text</label>
       <input class="a1" name="input-text" id="input" type="text" />
-      <label for="input-language" class="b"> Choose Language </label>
+      <label for="inputLang" class="b"> Choose Language </label>
 
       <select id="inputLang"  class="inputLanguage b1">
 
@@ -34,7 +35,7 @@
       <label for="translation" class="d" > Translation</label>
       <input name="translation-text" id="translation" type="text" class="d1" />
 
-      <label for="language" class="e"> Text Language</label>
+      <label for="detectedLang" class="e">Detected Language</label>
       <input name="detect-language" id="detectedLang" type="text" class="e1 "/>
       
       <p class="ratingText f ">Please leave your rating</p>
@@ -55,10 +56,8 @@
 
  
   </div>
- 
 
-    <script src="/path/to/index.js"></script>
-    <script src="frontend/Dom.js"></script>
+    <script src="dom.js"></script>
   </body>
 </html>
 

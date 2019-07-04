@@ -1,3 +1,26 @@
+function languageDetected(input) {
+	switch (input) {
+		case 'ar':
+			return 'Arabic';
+			break;
+		case 'en':
+			return 'English';
+			break;
+		case 'de':
+			return 'German';
+			break;
+		case 'fr':
+			return 'French';
+			break;
+		case 'ru':
+			return 'Russian';
+			break;
+		case 'ko':
+			return 'Korean';
+			break;
+	}
+}
+
 var input = document.getElementById('input');
 var inputLang = document.getElementById('inputLang');
 var translateButton = document.getElementById('translate');
@@ -23,26 +46,7 @@ translateButton.addEventListener('click', function() {
 	var detectUrl = `https://translate.yandex.net/api/v1.5/tr.json/detect?key=${key}&text=${text}`;
 	if (text !== '') {
 		request(detectUrl, (data) => {
-			switch (data.lang) {
-				case 'ar':
-					detectedLang.value = 'Arabic';
-					break;
-				case 'en':
-					detectedLang.value = 'English';
-					break;
-				case 'de':
-					detectedLang.value = 'German';
-					break;
-				case 'fr':
-					detectedLang.value = 'French';
-					break;
-				case 'ru':
-					detectedLang.value = 'Russian';
-					break;
-				case 'ko':
-					detectedLang.value = 'Korean';
-					break;
-			}
+			detectedLang.value = languageDetected(data.lang);
 
 			var selectedLang = inputLang[inputLang.selectedIndex].value;
 			translateUrl = `https://translate.yandex.net/api/v1.5/tr.json/translate?key=${key}&text=${text}&lang=${data.lang}-${selectedLang}`;
